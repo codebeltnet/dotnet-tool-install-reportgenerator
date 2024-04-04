@@ -1,0 +1,7 @@
+name: Install .NET Tool - Report Generator
+description: Install the latest version of ReportGenerator using dotnet tool.
+runs:
+  using: composite
+  steps:
+  - run: dotnet tool update --global dotnet-reportgenerator-globaltool
+    shell: bash
