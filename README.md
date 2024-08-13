@@ -23,7 +23,11 @@ uses: codebeltnet/dotnet-tool-install-reportgenerator@v1
 
 ### Inputs
 
-This action has no inputs.
+```yaml
+with:
+  # The version of Report Generator to install.
+  version: 5.3.8
+```
 
 ### Outputs
 
