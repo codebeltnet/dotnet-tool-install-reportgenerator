@@ -4,7 +4,7 @@ inputs:
   version:
     description: The version of ReportGenerator to install.
     required: false
-    default: 5.5.1
+    default: 5.5.10
 runs:
   using: composite
   steps:
